@@ -1,0 +1,9 @@
+<h3>Figures</h3>
+<form action="/figures/index" method="GET">
+     <% @figures.each do |figure| %>
+        <%= figure.name %><br>
+     <% end %>
+  <br>
+
+  </form>
+  <a class="button" href="/figures/new">Create New Figure</a> 
